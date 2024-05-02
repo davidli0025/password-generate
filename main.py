@@ -14,15 +14,6 @@ numbs = [random.choice(numbers) for _ in range(nr_numbers)]
 syms = [random.choice(symbols) for _ in range(nr_symbols)]
 password_list = letts + numbs + syms
 
-# for char in range(nr_letters):
-#   password_list.append(random.choice(letters))
-#
-# for char in range(nr_symbols):
-#   password_list += random.choice(symbols)
-#
-# for char in range(nr_numbers):
-#   password_list += random.choice(numbers)
-
 random.shuffle(password_list)
 
 password = ""
